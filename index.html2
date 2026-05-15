@@ -39,7 +39,7 @@
 <body>
 
   <div class="container">
-    <img id="bulb" src="cbof.png" alt="Bulb">
+    <img id="bulb" src="Screenshot_20260515_122840.jpg" alt="Bulb">
 
     <br>
 
@@ -56,11 +56,11 @@
       let btn = document.getElementById("btn");
 
       if (isOn) {
-        bulb.src = "cbof.png";
+        bulb.src = "Screenshot_20260515_122840.jpg";
         btn.innerText = "Turn On";
         isOn = false;
       } else {
-        bulb.src = "cbon.png";
+        bulb.src = "";
         btn.innerText = "Turn Of";
         isOn = true;
       }
